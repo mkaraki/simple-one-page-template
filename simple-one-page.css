@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.fullscreen-cover {
+    height: 100vh;
+}
+
+.fullscreen-cover.imaged {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #222;
+}
+
+.fullcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.fullcenter p {
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.bg-transparent-img {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.bg-transparent-img h1 small {
+    color: gainsboro;
+}
+
+.fullscreen-cover div {
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    padding: 15px;
+    color: gainsboro;
+    font-size: 19px;
+}
+
+footer {
+    border-top: #DDD solid 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: black;
+}
+
+.imaged a:link,
+.imaged a:visited,
+.imaged a:hover,
+.imaged a:active {
+    color: lightgray;
+}
